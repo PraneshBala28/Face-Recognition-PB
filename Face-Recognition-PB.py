@@ -83,8 +83,8 @@ def main():
            
 
         if frame is not None:
+            # Uncomment the line below to sacrifice quality for better speed
             # frame = cv2.resize(frame, (0, 0), fx=0.5, fy=0.5)
-            # small_frame = cv2.resize(frame, (0, 0), fx=0.75, fy=0.75)
             face_names_and_confidences = face_recognizer.recognize_faces(frame)
 
             for (top, right, bottom, left), name, confidence in face_names_and_confidences:
