@@ -43,19 +43,6 @@ This project is suitable for applications in security systems, attendance tracki
     ```
 
 2. Press `q` to quit the program.
-
-## Overview
-
-This project demonstrates real-time face recognition using a webcam. It captures frames from the video feed, detects faces using the `face_recognition` library, compares them with known faces stored in the "Images" directory, and displays the recognized faces with confidence levels.
-
-## Code Explanation
-
-- **FaceRecognition Class:** Initializes with known face encodings and names loaded from images in the "Images" directory.
-- **load_known_faces():** Loads and encodes known faces using `face_recognition`.
-- **recognize_faces(frame):** Recognizes faces in the provided frame, computes face encodings, compares them with known faces, and calculates confidence levels using custom `face_confidence` function.
-- **frame_capture(video_capture, frame_buffer, lock):** Threaded function to capture frames from the video feed.
-- **main():** Initializes video capture, starts frame capture thread, and continuously recognizes faces from the captured frames.
-
 ---
 
 *Developed by Pranesh Balaji.*
