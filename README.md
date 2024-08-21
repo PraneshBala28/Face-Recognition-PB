@@ -4,6 +4,7 @@ This project implements real-time face recognition using a webcam feed. It lever
 
 The project incorporates multi-threading to enhance performance, with one thread dedicated to capturing frames and another to process and recognize faces concurrently. This approach ensures efficient handling of real-time video input, making it suitable for applications requiring immediate response to detected faces.
 
+![FACE RECOGNITION](https://github.com/PraneshBala28/Face-Recognition-PB/blob/main/FR_Title.jpg?raw=true)
 ### Key Features
 
 - **Real-Time Face Detection and Recognition:** Uses `opencv-python` for real-time video capture and `face_recognition` for accurate face recognition.
@@ -46,3 +47,5 @@ This project is suitable for applications in security systems, attendance tracki
 ---
 
 *Developed by Pranesh Balaji.*
+
+![Working Screenshot](https://github.com/PraneshBala28/Face-Recognition-PB/blob/main/workingSS.jpg?raw=true)
